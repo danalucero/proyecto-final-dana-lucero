@@ -1,0 +1,24 @@
+/* video */
+
+.contenedorVideo{
+    height: 100vh;
+    .mainVideo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .tituloVideo{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5rem;
+            margin: 1.5rem;
+            color: whitesmoke;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+        section{
+            margin-top: 2rem;
+            iframe{
+                margin: 0.5rem;
+            }
+        }
+    }
+}

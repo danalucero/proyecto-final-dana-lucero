@@ -1,0 +1,334 @@
+/* variables */
+$color-principal: black;
+$color-fuente: whitesmoke;
+
+/* variables media queries tablet */
+@media (min-width: 576px) and (max-width: 992px) {
+    /* menu gral */
+    header{
+        a .enlaceLogo{
+            width: 9rem;
+            margin: 1rem;
+        }
+        .menu ul{
+            margin: 0.5rem;
+            li {
+                font-size: 1rem;
+                margin: 0rem;  
+            }
+        }
+    } 
+    
+    /*main*/
+    main{
+        padding: 0.8rem;
+    }
+
+    /*footer*/
+    footer{
+        padding: 0.5rem;
+        a{
+            color: aliceblue;
+            padding: 0.5rem;
+            font-size: 0.7rem;
+        }
+        div{
+            display: flex;
+            flex-direction: row;
+            img{
+                width: 1.3rem;
+            }
+        }
+    }
+
+    /* index */
+    .contenedorIndex{
+        header .logoIndex{
+            width: 7rem;
+            margin: 1rem;
+        } 
+        .mainIndex{
+            padding-top: 4rem;
+            .menuIndex{
+                text-align: center;
+                align-self: center;
+                ul li{
+                    font-size: 1.2rem;
+                    margin: 0.6rem; 
+                    line-height: 3rem;
+                    :hover{
+                        transform: scale(3);
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    /* about */
+    .contenedorAbout{
+        height: 100%;
+        .mainAbout .divMainAbout{
+            .tituloAbout{
+        
+                font-size: 1.2rem;
+                margin: 1.2rem;
+            }
+            .divMainAbout1{
+                flex-direction: column-reverse;
+                .imgAbout{
+                    width: 15rem;
+                    margin: 0.5rem;
+                }
+                .parrafoAbout{
+                    font-size: 1.1rem;
+                    line-height: 1.6;
+                    margin: 1rem;
+                }
+            }
+            .divMainAbout2{
+                flex-direction: column-reverse;
+                .imgAbout{
+                    width: 15rem;
+                    margin: 0.5rem;
+                }
+                .parrafoAbout{
+                    font-size: 1.1rem;
+                    line-height: 1.6;
+                    margin: 1rem;
+                }
+            }
+        }
+    }
+    
+    /*  portfolio  */
+    .contenedorPortfolio{
+        height: 100%;
+        main{
+            .tituloPortfolio{
+                font-size: 1.2rem;
+                margin: 1.2rem;
+            }
+            .parrafoPortfolio{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1.1rem;
+            }
+            section{
+                margin-top: 2rem;
+                div p{
+                    font-size: 1.1rem;
+                    margin: 1rem;
+                    text-align: justify;
+                    line-height: 1.6;
+                    margin: 1rem;
+                    text-indent: 3rem;
+                }
+            }
+        } 
+    }
+    
+    /*  video  */
+    .contenedorVideo{
+        height: 100%;
+        .mainVideo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .tituloVideo{
+                font-size: 1.2rem;
+                margin: 1.2rem;
+            }
+            section{
+                margin-top: 1.5rem;
+                flex-direction: column;
+                iframe{
+                    margin: 1rem;
+                }
+            }
+        }
+    }
+    
+    /*  contacto   */
+    .contenedorContacto{
+        .mainContacto{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .tituloContacto{
+                font-size: 1rem;
+                margin: 1.5rem;
+                text-align: center;
+            }
+            form fieldset{
+                justify-content: center;
+                border: whitesmoke;
+                div label{
+                    font-size: 1.2rem;
+                    padding: 0.5rem;
+                }
+            }
+        }
+    }
+}
+
+/* variables media queries mobile */
+@media screen and (max-width: 576px){
+     /* menu gral */
+     header{
+        a .enlaceLogo{
+            width: 7rem;
+            margin: 0.6rem;
+        }
+        .menu ul{
+            margin: 0.5rem;
+            li {
+                font-size: 1rem;
+                margin: 0rem;  
+            }
+        }
+    } 
+    
+    /* index */
+    .contenedorIndex{
+        header .logoIndex{
+            width: 7rem;
+            margin: 1rem;
+        } 
+        .mainIndex{
+            padding-top: 4rem;
+            .menuIndex{
+                text-align: center;
+                align-self: center;
+                ul li{
+                    font-size: 1.2rem;
+                    margin: 0.6rem; 
+                    line-height: 3rem;
+                    :hover{
+                        transform: scale(3);
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+            .bySean {
+                font-family: 'Rock Salt', cursive;
+                font-size: 2.3rem;
+                color: rgb(14, 12, 12);
+                text-align: end;
+                text-shadow: #e6e0e0 6px 6px 8px;
+                margin: 0.5rem;
+            }
+        }
+    }
+
+    /* about */
+    .contenedorAbout{
+        height: 100%;
+        .mainAbout .divMainAbout{
+            .tituloAbout{
+                font-size: 1.2rem;
+                margin: 1.2rem;
+            }
+            .divMainAbout1{
+                flex-direction: column-reverse;
+                .imgAbout{
+                    width: 15rem;
+                    margin: 0.5rem;
+                }
+                .parrafoAbout{
+                    font-size: 1.1rem;
+                    line-height: 1.6;
+                    margin: 1rem;
+                }
+            }
+            .divMainAbout2{
+                flex-direction: column-reverse;
+                .imgAbout{
+                    width: 15rem;
+                    margin: 0.5rem;
+                }
+                .parrafoAbout{
+                    font-size: 1.1rem;
+                    line-height: 1.6;
+                    margin: 1rem;
+                }
+            }
+        }
+    }
+    
+    /*  portfolio  */
+    .contenedorPortfolio{
+        height: 100%;
+        main{
+            .tituloPortfolio{
+                font-size: 1.2rem;
+                margin: 1.2rem;
+            }
+            .parrafoPortfolio{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1.1rem;
+            }
+            section{
+                margin-top: 2rem;
+                div{
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    width: auto;
+                    p{
+                        font-size: 1.1rem;
+                        margin: 1rem;
+                        text-align: justify;
+                        line-height: 1.6;
+                        margin: 1rem;
+                        text-indent: 3rem;
+                    }
+                }
+            }
+        } 
+    }
+    
+    /*  video  */
+    .contenedorVideo{
+        height: 100%;
+        .mainVideo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .tituloVideo{
+                font-size: 1.2rem;
+                margin: 1.2rem;
+            }
+            section{
+                margin-top: 1.5rem;
+                flex-direction: column;
+                iframe{
+                    margin: 1rem;
+                    width: 90%;
+                }
+            }
+        }
+    }
+    
+    /*  contacto   */
+    .contenedorContacto{
+        .mainContacto{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .tituloContacto{
+                font-size: 1rem;
+                margin: 1.5rem;
+                text-align: center;
+            }
+            form fieldset{
+                justify-content: center;
+                border: whitesmoke;
+                div label{
+                    font-size: 1.2rem;
+                    padding: 0.5rem;
+                }
+            }
+        }
+    }
+}
+
+

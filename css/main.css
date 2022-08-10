@@ -1,0 +1,465 @@
+/* import */
+/* index */
+.contenedorIndex {
+  height: 100%; }
+  .contenedorIndex header .logoIndex {
+    width: 9rem;
+    margin: 1rem; }
+  .contenedorIndex .mainIndex {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../img/00ab5019421135dcbc14c0c5e6d056a9.jpg);
+    background-position: center;
+    padding-top: 6.2rem; }
+    .contenedorIndex .mainIndex .menuIndex {
+      text-align: end;
+      align-self: flex-end; }
+      .contenedorIndex .mainIndex .menuIndex ul li {
+        font-size: 1.4rem;
+        margin: 0.6rem;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        line-height: 2.3;
+        list-style: none;
+        font-weight: 500;
+        letter-spacing: 6px; }
+        .contenedorIndex .mainIndex .menuIndex ul li :hover {
+          transform: scale(3);
+          font-size: 1.8rem;
+          transition: 0.3s; }
+        .contenedorIndex .mainIndex .menuIndex ul li a {
+          text-decoration: none;
+          color: whitesmoke;
+          text-shadow: #d3cccc 6px 6px 8px;
+          background-color: #262424;
+          border: 1rem;
+          padding: 0.5rem; }
+    .contenedorIndex .mainIndex div .bySean {
+      font-family: 'Rock Salt', cursive;
+      font-size: 2.3rem;
+      color: #0e0c0c;
+      text-align: end;
+      text-shadow: #e6e0e0 6px 6px 8px;
+      margin: 0.5rem; }
+
+/* about */
+.contenedorAbout .mainAbout .divMainAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .contenedorAbout .mainAbout .divMainAbout .tituloAbout {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 4px; }
+  .contenedorAbout .mainAbout .divMainAbout .divMainAbout1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    .contenedorAbout .mainAbout .divMainAbout .divMainAbout1 .imgAbout {
+      width: 17rem;
+      box-shadow: 3px 3px #aeabab;
+      margin: 1rem; }
+    .contenedorAbout .mainAbout .divMainAbout .divMainAbout1 div .parrafoAbout {
+      font-family: 'Montserrat', sans-serif;
+      color: whitesmoke;
+      text-align: justify;
+      font-size: 1.2rem;
+      line-height: 1.8;
+      margin: 2rem;
+      text-indent: 3rem; }
+  .contenedorAbout .mainAbout .divMainAbout .divMainAbout2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center; }
+    .contenedorAbout .mainAbout .divMainAbout .divMainAbout2 .imgAbout {
+      width: 17rem;
+      box-shadow: 3px 3px #aeabab;
+      margin: 1rem; }
+    .contenedorAbout .mainAbout .divMainAbout .divMainAbout2 div .parrafoAbout {
+      font-family: 'Montserrat', sans-serif;
+      color: whitesmoke;
+      text-align: justify;
+      font-size: 1.2rem;
+      line-height: 1.8;
+      margin: 2rem;
+      text-indent: 3rem; }
+
+/* portfolio  */
+.contenedorPortfolio {
+  height: 100vh; }
+  .contenedorPortfolio main .tituloPortfolio {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px; }
+  .contenedorPortfolio main .parrafoPortfolio {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    margin: 1rem;
+    color: whitesmoke;
+    text-align: center; }
+  .contenedorPortfolio main section {
+    margin-top: 3rem; }
+    .contenedorPortfolio main section div {
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center; }
+    .contenedorPortfolio main section p {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.3rem;
+      margin: 1rem;
+      color: whitesmoke;
+      display: inline; }
+
+/* video */
+.contenedorVideo {
+  height: 100vh; }
+  .contenedorVideo .mainVideo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .contenedorVideo .mainVideo .tituloVideo {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.5rem;
+      margin: 1.5rem;
+      color: whitesmoke;
+      text-transform: uppercase;
+      letter-spacing: 4px; }
+    .contenedorVideo .mainVideo section {
+      margin-top: 2rem; }
+      .contenedorVideo .mainVideo section iframe {
+        margin: 0.5rem; }
+
+/* contacto */
+.contenedorContacto {
+  height: 100%; }
+  .contenedorContacto .mainContacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .contenedorContacto .mainContacto .tituloContacto {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.1rem;
+      margin: 2rem;
+      color: whitesmoke;
+      text-transform: uppercase;
+      letter-spacing: 4px; }
+    .contenedorContacto .mainContacto form {
+      width: max-content; }
+      .contenedorContacto .mainContacto form fieldset {
+        justify-content: center;
+        border: whitesmoke; }
+        .contenedorContacto .mainContacto form fieldset div {
+          margin: 1.5rem; }
+          .contenedorContacto .mainContacto form fieldset div label {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            padding: 0.8rem;
+            color: whitesmoke; }
+        .contenedorContacto .mainContacto form fieldset .botones {
+          text-align: center; }
+          .contenedorContacto .mainContacto form fieldset .botones .botonFormulario {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            padding: 0.6rem;
+            border-radius: 0.5rem;
+            margin: 0.5rem;
+            color: whitesmoke;
+            background-color: #2e2b2b; }
+
+/* variables */
+/* variables media queries tablet */
+@media (min-width: 576px) and (max-width: 992px) {
+  /* menu gral */
+  header a .enlaceLogo {
+    width: 9rem;
+    margin: 1rem; }
+  header .menu ul {
+    margin: 0.5rem; }
+    header .menu ul li {
+      font-size: 1rem;
+      margin: 0rem; }
+  /*main*/
+  main {
+    padding: 0.8rem; }
+  /*footer*/
+  footer {
+    padding: 0.5rem; }
+    footer a {
+      color: aliceblue;
+      padding: 0.5rem;
+      font-size: 0.7rem; }
+    footer div {
+      display: flex;
+      flex-direction: row; }
+      footer div img {
+        width: 1.3rem; }
+  /* index */
+  .contenedorIndex header .logoIndex {
+    width: 7rem;
+    margin: 1rem; }
+  .contenedorIndex .mainIndex {
+    padding-top: 4rem; }
+    .contenedorIndex .mainIndex .menuIndex {
+      text-align: center;
+      align-self: center; }
+      .contenedorIndex .mainIndex .menuIndex ul li {
+        font-size: 1.2rem;
+        margin: 0.6rem;
+        line-height: 3rem; }
+        .contenedorIndex .mainIndex .menuIndex ul li :hover {
+          transform: scale(3);
+          font-size: 1.5rem; }
+  /* about */
+  .contenedorAbout {
+    height: 100%; }
+    .contenedorAbout .mainAbout .divMainAbout .tituloAbout {
+      font-size: 1.2rem;
+      margin: 1.2rem; }
+    .contenedorAbout .mainAbout .divMainAbout .divMainAbout1 {
+      flex-direction: column-reverse; }
+      .contenedorAbout .mainAbout .divMainAbout .divMainAbout1 .imgAbout {
+        width: 15rem;
+        margin: 0.5rem; }
+      .contenedorAbout .mainAbout .divMainAbout .divMainAbout1 .parrafoAbout {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin: 1rem; }
+    .contenedorAbout .mainAbout .divMainAbout .divMainAbout2 {
+      flex-direction: column-reverse; }
+      .contenedorAbout .mainAbout .divMainAbout .divMainAbout2 .imgAbout {
+        width: 15rem;
+        margin: 0.5rem; }
+      .contenedorAbout .mainAbout .divMainAbout .divMainAbout2 .parrafoAbout {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin: 1rem; }
+  /*  portfolio  */
+  .contenedorPortfolio {
+    height: 100%; }
+    .contenedorPortfolio main .tituloPortfolio {
+      font-size: 1.2rem;
+      margin: 1.2rem; }
+    .contenedorPortfolio main .parrafoPortfolio {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.1rem; }
+    .contenedorPortfolio main section {
+      margin-top: 2rem; }
+      .contenedorPortfolio main section div p {
+        font-size: 1.1rem;
+        margin: 1rem;
+        text-align: justify;
+        line-height: 1.6;
+        margin: 1rem;
+        text-indent: 3rem; }
+  /*  video  */
+  .contenedorVideo {
+    height: 100%; }
+    .contenedorVideo .mainVideo {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .contenedorVideo .mainVideo .tituloVideo {
+        font-size: 1.2rem;
+        margin: 1.2rem; }
+      .contenedorVideo .mainVideo section {
+        margin-top: 1.5rem;
+        flex-direction: column; }
+        .contenedorVideo .mainVideo section iframe {
+          margin: 1rem; }
+  /*  contacto   */
+  .contenedorContacto .mainContacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .contenedorContacto .mainContacto .tituloContacto {
+      font-size: 1rem;
+      margin: 1.5rem;
+      text-align: center; }
+    .contenedorContacto .mainContacto form fieldset {
+      justify-content: center;
+      border: whitesmoke; }
+      .contenedorContacto .mainContacto form fieldset div label {
+        font-size: 1.2rem;
+        padding: 0.5rem; } }
+
+/* variables media queries mobile */
+@media screen and (max-width: 576px) {
+  /* menu gral */
+  header a .enlaceLogo {
+    width: 7rem;
+    margin: 0.6rem; }
+  header .menu ul {
+    margin: 0.5rem; }
+    header .menu ul li {
+      font-size: 1rem;
+      margin: 0rem; }
+  /* index */
+  .contenedorIndex header .logoIndex {
+    width: 7rem;
+    margin: 1rem; }
+  .contenedorIndex .mainIndex {
+    padding-top: 4rem; }
+    .contenedorIndex .mainIndex .menuIndex {
+      text-align: center;
+      align-self: center; }
+      .contenedorIndex .mainIndex .menuIndex ul li {
+        font-size: 1.2rem;
+        margin: 0.6rem;
+        line-height: 3rem; }
+        .contenedorIndex .mainIndex .menuIndex ul li :hover {
+          transform: scale(3);
+          font-size: 1.5rem; }
+    .contenedorIndex .mainIndex .bySean {
+      font-family: 'Rock Salt', cursive;
+      font-size: 2.3rem;
+      color: #0e0c0c;
+      text-align: end;
+      text-shadow: #e6e0e0 6px 6px 8px;
+      margin: 0.5rem; }
+  /* about */
+  .contenedorAbout {
+    height: 100%; }
+    .contenedorAbout .mainAbout .divMainAbout .tituloAbout {
+      font-size: 1.2rem;
+      margin: 1.2rem; }
+    .contenedorAbout .mainAbout .divMainAbout .divMainAbout1 {
+      flex-direction: column-reverse; }
+      .contenedorAbout .mainAbout .divMainAbout .divMainAbout1 .imgAbout {
+        width: 15rem;
+        margin: 0.5rem; }
+      .contenedorAbout .mainAbout .divMainAbout .divMainAbout1 .parrafoAbout {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin: 1rem; }
+    .contenedorAbout .mainAbout .divMainAbout .divMainAbout2 {
+      flex-direction: column-reverse; }
+      .contenedorAbout .mainAbout .divMainAbout .divMainAbout2 .imgAbout {
+        width: 15rem;
+        margin: 0.5rem; }
+      .contenedorAbout .mainAbout .divMainAbout .divMainAbout2 .parrafoAbout {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin: 1rem; }
+  /*  portfolio  */
+  .contenedorPortfolio {
+    height: 100%; }
+    .contenedorPortfolio main .tituloPortfolio {
+      font-size: 1.2rem;
+      margin: 1.2rem; }
+    .contenedorPortfolio main .parrafoPortfolio {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.1rem; }
+    .contenedorPortfolio main section {
+      margin-top: 2rem; }
+      .contenedorPortfolio main section div {
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: auto; }
+        .contenedorPortfolio main section div p {
+          font-size: 1.1rem;
+          margin: 1rem;
+          text-align: justify;
+          line-height: 1.6;
+          margin: 1rem;
+          text-indent: 3rem; }
+  /*  video  */
+  .contenedorVideo {
+    height: 100%; }
+    .contenedorVideo .mainVideo {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .contenedorVideo .mainVideo .tituloVideo {
+        font-size: 1.2rem;
+        margin: 1.2rem; }
+      .contenedorVideo .mainVideo section {
+        margin-top: 1.5rem;
+        flex-direction: column; }
+        .contenedorVideo .mainVideo section iframe {
+          margin: 1rem;
+          width: 90%; }
+  /*  contacto   */
+  .contenedorContacto .mainContacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .contenedorContacto .mainContacto .tituloContacto {
+      font-size: 1rem;
+      margin: 1.5rem;
+      text-align: center; }
+    .contenedorContacto .mainContacto form fieldset {
+      justify-content: center;
+      border: whitesmoke; }
+      .contenedorContacto .mainContacto form fieldset div label {
+        font-size: 1.2rem;
+        padding: 0.5rem; } }
+
+/* extend */
+/* mapas */
+/* mixin */
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*  -----------  HEADER GENERAL  -----------  */
+header {
+  display: flex;
+  background-color: black;
+  justify-content: space-between; }
+  header a .enlaceLogo {
+    width: 9rem;
+    margin: 1rem; }
+  header .menu ul li {
+    list-style: none;
+    font-size: 1rem;
+    margin: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase; }
+    header .menu ul li a {
+      text-decoration: none;
+      color: whitesmoke; }
+
+/*  -----------   MAIN GENERAL   ----------- */
+main {
+  background-color: black;
+  background-size: cover;
+  padding: 1.5rem; }
+
+/*   -----------   FOOTER GENERAL   -------------   */
+footer {
+  height: 5rem;
+  display: flex;
+  background-color: black;
+  padding: 0.8rem;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: row-reverse; }
+  footer h2 {
+    color: #a5bdd3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.6rem;
+    padding: 2px 5px; }
+  footer a {
+    color: aliceblue;
+    padding: 0.5rem;
+    font-size: 0.8rem; }
+  footer div {
+    display: flex;
+    flex-direction: row; }
+    footer div a img {
+      width: 1.5rem; }

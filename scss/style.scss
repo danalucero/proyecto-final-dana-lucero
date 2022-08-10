@@ -1,0 +1,78 @@
+/* import */
+@import "utilities/index";
+@import "utilities/about";
+@import "utilities/portfolio";
+@import "utilities/video";
+@import "utilities/contacto";
+@import "utilities/variables";
+@import "utilities/extend";
+@import "utilities/mapas";
+@import "utilities/mixin";
+
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  -----------  HEADER GENERAL  -----------  */
+header{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    a .enlaceLogo{
+        width: 9rem;
+        margin: 1rem;
+    }
+
+    .menu ul li {
+        list-style: none;
+        font-size: 1rem;
+        margin: 1rem; 
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        a{
+            text-decoration: none;
+            color:whitesmoke;
+        }
+    }
+}
+
+/*  -----------   MAIN GENERAL   ----------- */
+main{
+    background-color: black;
+    background-size: cover;
+    padding: 1.5rem;
+}
+
+/*   -----------   FOOTER GENERAL   -------------   */
+footer{
+    height: 5rem;
+    display: flex;
+    background-color: black;
+    padding: 0.8rem;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    h2{
+        color: rgb(165, 189, 211);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.6rem;
+        padding: 2px 5px;
+    }
+    a{
+        color: aliceblue;
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+    div{
+        display: flex;
+        flex-direction: row;
+        a img{
+            width: 1.5rem;
+        }
+    }
+}
+

@@ -1,0 +1,38 @@
+/* portfolio  */
+
+.contenedorPortfolio{
+    height: 100vh;
+    main{
+        .tituloPortfolio{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5rem;
+            margin: 1.5rem;
+            color: whitesmoke;
+            text-transform: uppercase;
+            text-align: center;
+            letter-spacing: 4px;
+        }
+        .parrafoPortfolio{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.3rem;
+            margin: 1rem;
+            color: whitesmoke;
+            text-align: center;
+        }
+        section{
+            margin-top: 3rem;
+            div{
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: center;
+            }
+            p{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1.3rem;
+                margin: 1rem;
+                color: whitesmoke;
+                display: inline;
+            }
+        }
+    } 
+}

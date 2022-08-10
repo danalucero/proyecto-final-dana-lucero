@@ -1,0 +1,54 @@
+/* index */
+
+.contenedorIndex{
+    height: 100%;
+    header .logoIndex{
+        width: 9rem;
+        margin: 1rem;
+    }
+    .mainIndex{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-image: url(../img/00ab5019421135dcbc14c0c5e6d056a9.jpg);
+        background-position: center;
+        padding-top: 6.2rem;
+        .menuIndex{
+            text-align: end;
+            align-self: flex-end;
+            ul li{
+                font-size: 1.4rem;
+                margin: 0.6rem; 
+                font-family: 'Montserrat', sans-serif;
+                text-transform: uppercase;
+                line-height: 2.3;
+                list-style: none;
+                font-weight: 500;
+                letter-spacing: 6px;
+                :hover{
+                    transform: scale(3);
+                    font-size: 1.8rem;
+                    transition: 0.3s;
+                }
+                a{
+                    text-decoration: none;
+                    color: whitesmoke;
+                    text-shadow: #d3cccc 6px 6px 8px;
+                    background-color: rgb(38, 36, 36);
+                    border: 1rem;
+                    padding: 0.5rem;
+                }
+            }
+        }
+        div .bySean{
+            font-family: 'Rock Salt', cursive;
+            font-size: 2.3rem;
+            color: rgb(14, 12, 12);
+            text-align: end;
+            text-shadow: #e6e0e0 6px 6px 8px;
+            margin: 0.5rem;
+        }
+    }
+}

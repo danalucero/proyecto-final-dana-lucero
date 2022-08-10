@@ -1,0 +1,46 @@
+/* contacto */
+
+.contenedorContacto{
+    height: 100%;
+    .mainContacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .tituloContacto{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.1rem;
+            margin: 2rem;
+            color: whitesmoke;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+        form{
+            width:max-content;
+            fieldset{
+                justify-content: center;
+                border: whitesmoke;
+                div{
+                    margin: 1.5rem;
+                    label{
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 20px;
+                        padding: 0.8rem;
+                        color: whitesmoke;
+                    }
+                }
+                .botones{
+                    text-align: center;
+                    .botonFormulario{
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 1rem;
+                        padding: 0.6rem;
+                        border-radius: 0.5rem;
+                        margin: 0.5rem;
+                        color: whitesmoke;
+                        background-color: rgb(46, 43, 43);
+                    }
+                }
+            }
+        }
+    }
+}
